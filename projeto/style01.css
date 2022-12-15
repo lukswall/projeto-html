@@ -1,27 +1,25 @@
-div.bloco
+/*Shorthand background
+color > image > position > repeat > [size] > attachment*/
+#container{
+    background-image: url('imagens/target001.png');
+    background-size: 100% 100%;
+    position: relative;
+    height: 96vh;
+    padding: 10px;
+    background-color: purple;
+}
+
+#conteudo
 {
-    background-image: url('imagens/wallpaper003.jpg');
+    background-image: url('imagens/target001.png');
+    background-size: 100% 100%;
+    position: absolute;
     height: 200px;
-    border: 1px solid black;
-    border-radius: 20px;
-    margin: 10px;
-}
+    width: 400px;
+    background-color: yellow;
 
-div#q1
-{
-    background-position: left top;
-}
+    left: 50%;
+    top: 50%;
 
-div#q2
-{
-    background-position: left center;
-}
-
-div#q3
-{
-    background-position: right bottom;
-}
-div#q4
-{
-    background-position: center center;
+    transform: translate(-50%, -50%);
 }
