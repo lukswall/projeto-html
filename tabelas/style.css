@@ -6,6 +6,9 @@ body
 {
     background-color:rgb(222, 241, 249);
 }
+main p{
+    width: 2em;
+}
 h1,h2
 {
     text-align: center;
