@@ -25,13 +25,60 @@
                 Para envio de arquivos, não pode usar metodo get, usa o metodo post
             -->
         </p>
-        <input type="submit" value="Enviar">
-        <input type="reset" value="Limpar">
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
 
     </form>
 
-        <h1>Elementos fora da tag input</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
 
+        <h1>Elementos fora da tag input</h1>
+        <p>
+            <label for="iestado">Estado</label>
+            <select name="estado" id="iestado">
+                <optgroup label="Região Sudeste">
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio de janeiro</option>
+                    <option value="SP" selected>São Paulo</option>
+                </optgroup>
+
+                <optgroup label="Região Nordeste">
+                    <option value="MA">Maranhão</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="RN">Rio grande do norte</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option value="ADM">Adminstrador</option>
+                <option value="CONT">Contabilista</option>
+                <option value="DEV">Desenvolvedor</option>
+                <option value="PROF">Professor</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imsg">Mensagem: </label><br>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+        </p>
+        
+
+
+
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+        
+    </form>
 
 </body>
 </html>
