@@ -21,7 +21,7 @@ Grandes telas: acima de 1200px
     #tablet{
         display: block;
     }
-    #smartphone, #pc{
+    #smartphone, #pc,#tv{
         display: none;
     }
 }
@@ -30,11 +30,24 @@ Grandes telas: acima de 1200px
     body{
         background-image: url(../imagens/pc-back.webp);
     }
+    #pc{
+        width: 100px;
+        display: block;
+    }
+    #smartphone, #tablet,#tv{
+        display: none;
+    }
 
 }
 @media screen and (min-width: 1200px){/*TV*/
     body{
         background-image: url(../imagens/tv-back.webp);
     }
-
+    #tv{
+        width: 100px;
+        display: block;
+    }
+    #smartphone, #tablet,#pc{
+        display: none;
+    }
 }

@@ -34,6 +34,6 @@ img{
     margin: auto;
     display: block;
 }
-#tablet, #pc{
+#tablet, #pc,#tv{
     display: none;
 }
