@@ -22,15 +22,16 @@ Grandes telas: acima de 1200px
     }
     section#login{
         width:90vw;
+        height: 300px;
     }
     section#login > div#imagem{
         float:left;
-        width: 50%;
+        width: 44%;
         height: 100%;
     }
     section#login > div#formulario{
         float:right;
-        width: 50%;
+        width: 55%;
     }
 }
 @media screen and (min-width: 992px){
