@@ -15,9 +15,14 @@
 </head>
 <body onresize="mudouTamanho()">
     <header>
-        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
-            menu
-            </span>
+
+        <div id="burguer">
+            <p>Puma</p>
+            <span  class="material-symbols-outlined" onclick="clickMenu()">
+ menu
+                </span>
+        </div>
+
         <menu id="itens">
 
             <ul>
@@ -49,18 +54,38 @@
     </section>
 
     <section class="servicos">
-        <h1>Serviços</h1>
 
-        <article> <img src="imagens/cctv.png" class="img-fluid" alt=""> <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem corrupti suscipit dolore animi hic exercitationem totam. Iusto rem cum numquam, omnis voluptates, tempore aspernatur quis aperiam repellendus veritatis, natus odio?</p> </article>
+        <h1> Serviços </h1>
 
-        <article> <img src="imagens/broom.png" class="img-fluid" alt=""></article>
+        <article class="card"> 
+            <img src="imagens/cctv.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </article>
 
-        <article><img src="imagens/man.png"  class="img-fluid"alt=""> </article>
+        <article class="card"> 
+            <img src="imagens/man.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </article>
 
-        <article><img src="imagens/settings.png" class="img-fluid" alt=""> </article>
+        <article class="card"> 
+            <img src="imagens/broom.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </article>
+
+        <article class="card"> 
+            <img src="imagens/settings.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </article>
 
     </section>
-
 
     <footer class="rodape">
 
@@ -68,23 +93,6 @@
     
     <script>
 
-        function mudouTamanho(){
-            if (window.innerWidth >= 768) {
-                itens.style.display = 'block'
-                
-            } else {
-                itens.style.display = 'none'
-            }
-        }
-
-        function clickMenu(){
-            if (itens.style.flexDirection = 'column') {
-                itens.style.flexDirection = 'row'
-                
-            } else {
-                itens.style.flexDirection = 'column'
-            }
-        }
 
         function clickMenu(){
             if(itens.style.display == 'block'){
