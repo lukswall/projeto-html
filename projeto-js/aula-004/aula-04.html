@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudo de javascript</title>
+    <style>
+        body{
+            background-color: cadetblue;
+            color: white;
+            font: normal 20pt arial;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Me livrei</p>
+
+    <script>
+        //window.alert('Minha primeira mensagem');
+        // window.confirm('Esta gostando do JS ?');
+       //var n1 = Number.parseFloat(window.prompt('Digite um numero: '));
+       //var n2 = Number.parseFloat(window.prompt('Digite um numero: '));
+       //var s = n1 + n2;
+       //alert(`A soma entre ${n1} e ${n2} é igual a ${s}`);
+
+       var nome = window.prompt('Qual seu nome: ')
+       document.write(`Olá, ${nome}, seu nome tem ${nome.length} letras<br/>`)
+       document.write(`Seu nome com letras maiuscula: ${nome.toUpperCase()} <br/>`)
+       document.write(`Seu nome com letras maiuscula: ${nome.toLowerCase()} `)
+    </script>
+
+</body>
+</html>
