@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(109, 226, 247);
+    text-align: center;
+}
+main{
+    margin: auto;
+    font: normal 15pt Arial;
+    background-color: white;
+    width: 500px;
+    border-radius: 10px;
+    text-align: left;
+    padding: 20px;
+}
+main > input{
+    margin: 15px;
+}
