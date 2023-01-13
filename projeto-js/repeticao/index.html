@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laço de repetição</title>
+
+    <style>
+        body{
+            background-color: deepskyblue;
+            font: normal 13pt Arial;
+        }
+        h1{
+            text-align: center;
+        }
+        main{
+            background-color: white;
+            width: 500px;
+            padding: 15px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.463);
+
+        }
+        p {
+            width: 230px;
+        }
+        #txti, #txtf, #txtp{
+            float: right;
+        }
+        #res{
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+
+    <main>
+        <p>
+            Inicio:
+            <input type="number" name="inicio" id="txti">
+        </p>
+        <p>
+            Fim:
+            <input type="number" name="fim" id="txtf">
+        </p>
+        <p>
+            Passo:
+            <input type="number" name="passo" id="txtp">
+        </p>
+        <p>
+            <input type="button" value="Contar" onclick="contar()">
+        </p>
+
+        <div id="res">
+            <p>
+                preparando a contagem
+            </p>
+        </div> <br>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
