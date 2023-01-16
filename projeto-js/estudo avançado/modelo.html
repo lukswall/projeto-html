@@ -23,6 +23,9 @@
             box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.463);
 
         }
+        select{
+            width: 100px;
+        }
     </style>
 
 </head>
@@ -36,8 +39,10 @@
             numero (entre 1 e 100)
             <input type="number" name="fnum" id="fnum">
             <input type="button" value="Adicionar" onclick="adicionar()">
-            <br><br><select name="flista" id="flista" size="6"></select>
-            <br><input type="button" value="Finalizar" onclick="contar()">
+            <br><br>
+            <select name="flista" id="flista" size="6"></select>
+            <br>
+            <input type="button" value="Finalizar" onclick="finalizar()">
         </p>
 
         <div id="res">

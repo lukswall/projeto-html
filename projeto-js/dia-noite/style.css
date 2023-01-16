@@ -11,6 +11,19 @@ main{
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.516);
     padding: 20px;
 }
+button{
+    background-color: transparent;
+    width: 70px;
+    border: none;
+    cursor: pointer;
+}
+#sol{
+    display: block;
+}
+#lua{
+    display: none;
+}
+
 #horaCerta{
     text-align: center;
     margin-bottom: 20px;
