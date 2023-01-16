@@ -1,5 +1,6 @@
 body{
     text-align: center;
+    font: normal 13pt Arial;
 }
 button{
     cursor: pointer;
@@ -12,9 +13,10 @@ button{
     display: none;
 }
 img{
-    width: 40px;
+    width: 30px;
 }
 
 .dark-mode{
     background-color: darkgrey;
+    color: white;
 }
