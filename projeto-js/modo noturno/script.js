@@ -10,3 +10,7 @@ document.querySelector("#btn").addEventListener("click", () => {
         sol.style.display = 'none'
     }
 })
+
+var p = document.createElement("p");
+p.innerHTML = 'Chama'
+document.body.appendChild(p);
